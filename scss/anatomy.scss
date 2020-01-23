@@ -1,0 +1,63 @@
+.main-content-wrap {
+	.anatomy {
+		z-index: 0;
+		.sub__title {
+			color: #fff;
+
+		}
+		.shadow__title {
+			color: #02263545;
+		bottom: -116px;
+		}
+		.main__title {
+			color: #fff;
+
+		}
+		.shadow__main {
+			z-index: 1;
+			padding-top: 200px;
+		}
+		background-color: #96C73A;
+		position: relative;
+	}
+
+	.anat_block {
+		display: flex;
+		margin-top: 100px;
+		flex-wrap: wrap;
+	}
+	.anat-left {
+		img {
+			max-width: 500px;
+		}
+	}
+	.white-text {
+		color: #fff;
+		line-height: 1.2;
+		font-size: 19pt;
+		max-width: 600px;
+	}
+	.star {
+		margin-bottom: -7px;
+		    width: 30px;
+	}
+	.anat-right {
+		margin-left: 100px;
+	}
+	.first {
+		display: block;
+		margin-bottom: 50px;
+	}
+}
+@media (max-width: 714px) {
+	.anat-left {
+		img {
+			width: 100%;
+		}
+	}
+}
+@media (max-width: 496px) {
+	.anat-right {
+		margin-left: 0;
+	}
+}

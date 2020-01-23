@@ -1,0 +1,16 @@
+.white {
+
+	padding-bottom: 100px;
+	.text-animated {
+		color: #022635;
+		font-size: 10pt;
+		max-width: 400px;
+	}	
+}
+@media (max-width: 574px) {
+	.anat-left {
+		img {
+			width: 100%;
+		}
+	}
+}
